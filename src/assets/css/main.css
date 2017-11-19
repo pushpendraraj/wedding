@@ -991,7 +991,7 @@
 				-ms-flex: 1 1 calc(100% - 50px);
 				flex: 1 1 calc(100% - 50px);
 				max-width: 100%;
-				width: 50%;
+				width: 100%;
 			}
 
 			#preview.vertical .inner .content {
@@ -1526,4 +1526,12 @@
 		.event-menu li:first-child{padding-left: 0;}
 		.event-menu li{text-decoration: none; display: inline-block;}
 		.event-menu li a{color: #fff;text-decoration: none; font-family: 'Pattaya', sans-serif;
-    font-size: 20px;}
+	font-size: 20px;}
+	.event-list img{
+		height: 175px;
+		width: 200px !important;
+		margin-bottom: 12%;
+	}
+	.event-list .image.fit {
+		margin-left: 2%  !important;
+	}
