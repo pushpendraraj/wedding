@@ -1528,8 +1528,6 @@
 		.event-menu li a{color: #fff;text-decoration: none; font-family: 'Pattaya', sans-serif;
 	font-size: 20px;}
 	.event-list img{
-		height: 175px;
-		width: 200px !important;
 		margin-bottom: 12%;
 	}
 	.event-list .image.fit {
