@@ -77,4 +77,27 @@
 
 	});
 
+	jQuery(document).ready(function(){
+		jQuery('.event-menu a').click(function(){
+			jQuery('#footer').removeClass('show');
+		});
+	});
+
+	jQuery(document).ready(function(){ //Photos Gallery
+		jQuery(".fancybox-thumb").fancybox({
+		prevEffect	: 'none',
+		nextEffect	: 'none',
+		helpers	: {
+			title	: {
+			type: 'outside'
+			},
+			thumbs	: {
+			width	: 50,
+			height	: 50
+			}
+		}
+		});
+	});
+
 })(jQuery);
+
